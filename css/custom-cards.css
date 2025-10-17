@@ -23,3 +23,9 @@
     color: var(--white-color);
     font-size: 18px;
 }
+
+@media only screen and (max-width: 767px) {
+    .our-feature-list {
+        grid-template-columns: 1fr;
+    }
+}
