@@ -1,0 +1,25 @@
+.our-feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our-feature-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.our-feature-item .icon-box {
+    margin-bottom: 15px;
+}
+
+.our-feature-item .icon-box img {
+    max-width: 50px;
+}
+
+.our-feature-item .feature-item-content h3 {
+    color: var(--white-color);
+    font-size: 18px;
+}
